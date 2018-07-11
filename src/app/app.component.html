@@ -1,0 +1,6 @@
+
+<h1>Type or Copy and Paste Text to count the number of Characters</h1>
+<textarea #tx cols="100" (input)="updateCount()" [(ngModel)]="txtValue"></textarea>
+
+<p>{{count}}</p>
+<button (click)="clearTA()">Reset</button>
